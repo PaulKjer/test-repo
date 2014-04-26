@@ -5,7 +5,7 @@ Command level documentation is provide in the run_analysis.R script.
 
 ####	Key Assumptions
 *  	The data has been downloaded and unzipped and the directory is available within the working directory.
-	This assumption is based on the evalation rubric, which says – “can be run as long as the Samsung data is in your working directory. “
+	This assumption is based on the evalation rubric, which says – “can be run as long as the Samsung data is in your working directory.“
 *	For our purposes, the data in the “Inertial Signals” directories is not required.  
 *	The subjects in the training dataset and the testing dataset are the same subjects – combining them into a single
 	dataset will not invalidate the data. 
