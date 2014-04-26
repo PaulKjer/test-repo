@@ -19,6 +19,7 @@ Command level documentation is provide in the run_analysis.R script.
 ####	Outline of Approach
 
 #####	1.  COMBINE THE DATA INTO A SINGLE DATASET
+*	Read the data using _read.table_.  We assume 'UCI HAR Dataset' is in the working directory and set _file.path_ 		based on that assumption.
 *	Use _cbind_ to combine the variable descriptions with the measured values for both train and test, creating two 
 	datasets from the six we started with
 *	Use _rbind_ to combine the train and test datasets we created above into a single dataset.
